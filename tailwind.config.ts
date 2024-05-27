@@ -1,3 +1,4 @@
+import { Oswald } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        oswald: ["var(--font-oswald)"],
+        grava: ["var(--font-grava)"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
