@@ -1,5 +1,6 @@
 "use client";
 import { FC, ReactNode } from "react";
+// @ts-ignore
 import WaterWave from "react-water-wave";
 
 interface WaterWaveWrapperProps {
@@ -17,7 +18,7 @@ const WaterWaveWrapper:FC<WaterWaveWrapperProps> = ({
     resolution, 
     children 
 }) => {
-    
+
     return (
     <WaterWave
     imageUrl = {imageUrl}
