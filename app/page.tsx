@@ -10,6 +10,8 @@ import { PiUserCircleFill } from "react-icons/pi";
 import TextArea from "@/components/ui/text-area";
 import { MdComment } from "react-icons/md";
 import Profile from "@/components/ui/profile";
+import FancyButton from "@/components/ui/fancy-button";
+import { PiPhoneCallFill } from "react-icons/pi";
 
 export default function Home() {
   return (
@@ -44,6 +46,10 @@ export default function Home() {
         <TextArea placeholder="Comment" />
         <TextArea placeholder="Comment" icon={ <MdComment /> } />
         <Profile/>
+        <div className="w-[300px]">
+          <FancyButton text="Contact Me" icon = { <PiPhoneCallFill /> }/>
+        </div>
+        
       </Card>
     </div> 
     </div> 
