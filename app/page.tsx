@@ -12,6 +12,7 @@ import { MdComment } from "react-icons/md";
 import Profile from "@/components/ui/profile";
 import FancyButton from "@/components/ui/fancy-button";
 import { PiPhoneCallFill } from "react-icons/pi";
+import LiveClock from "@/components/ui/live-clock";
 
 export default function Home() {
   return (
@@ -49,7 +50,7 @@ export default function Home() {
         <div className="w-[300px]">
           <FancyButton text="Contact Me" icon = { <PiPhoneCallFill /> }/>
         </div>
-        
+        <LiveClock timeZone="Africa/Nairobi"/>
       </Card>
     </div> 
     </div> 
