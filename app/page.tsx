@@ -9,6 +9,7 @@ import Input from "@/components/ui/input";
 import { PiUserCircleFill } from "react-icons/pi";
 import TextArea from "@/components/ui/text-area";
 import { MdComment } from "react-icons/md";
+import Profile from "@/components/ui/profile";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
         <Input type="text" placeholder="Full Name" icon={ <PiUserCircleFill /> } />
         <TextArea placeholder="Comment" />
         <TextArea placeholder="Comment" icon={ <MdComment /> } />
+        <Profile/>
       </Card>
     </div> 
     </div> 
