@@ -1,6 +1,6 @@
 "use client";
 import { FC, ReactNode } from "react";
-// @ts-ignore
+
 import WaterWave from "react-water-wave";
 
 interface WaterWaveWrapperProps {

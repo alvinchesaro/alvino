@@ -13,6 +13,8 @@ import Profile from "@/components/ui/profile";
 import FancyButton from "@/components/ui/fancy-button";
 import { PiPhoneCallFill } from "react-icons/pi";
 import LiveClock from "@/components/ui/live-clock";
+import MagneticWrapper from "@/components/visualEffects/magnetic-wrapper";
+import ScrollDown from "@/components/ui/scroll-down";
 
 export default function Home() {
   return (
@@ -47,10 +49,13 @@ export default function Home() {
         <TextArea placeholder="Comment" />
         <TextArea placeholder="Comment" icon={ <MdComment /> } />
         <Profile/>
-        <div className="w-[300px]">
+        <MagneticWrapper className="w-[300px]">
           <FancyButton text="Contact Me" icon = { <PiPhoneCallFill /> }/>
-        </div>
+        </MagneticWrapper>
         <LiveClock timeZone="Africa/Nairobi"/>
+        <MagneticWrapper className="">
+          <ScrollDown/>
+        </MagneticWrapper>
       </Card>
     </div> 
     </div> 
